@@ -34,7 +34,7 @@ function parseWeather(xml) {
       " " +
       time.toDateString().split(" ")[2] +
       "<br>" +
-      '<img src="http://openweathermap.org/img/w/'+ allTimes[i].children[0].attributes[2].nodeValue + '.png" width="50%" height="50%"/>'+
+      '<img src="https://openweathermap.org/img/w/'+ allTimes[i].children[0].attributes[2].nodeValue + '.png" width="50%" height="50%"/>'+
       "<br />" +
       foreType +
       "</div>";
