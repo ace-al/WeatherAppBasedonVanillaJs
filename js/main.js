@@ -11,7 +11,7 @@ function getWeatherData(city) {
   };
   xhttp.open(
     "GET",
-      'http://api.openweathermap.org/data/2.5/forecast?q='+city+'&mode=xml&units=metric&appid=e8634d1d07ae42cd0d64f21bee74922a',
+      'https://api.openweathermap.org/data/2.5/forecast?q='+city+'&mode=xml&units=metric&appid=e8634d1d07ae42cd0d64f21bee74922a',
       true
   );
   xhttp.send();
